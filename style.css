@@ -1,0 +1,53 @@
+:root{
+    --color-p: darkred;
+    --color-s: rgb(245, 243, 243);
+    --color-t: rgb(192, 189, 2);
+    
+}
+
+.color-p{
+    color: var(--color-p); 
+}
+
+/* navbar */
+.navbarScroll{
+    margin: 5vh 15vh 0vh 15vh;
+    background-color: rgba(139, 0, 0, 0.795);
+    backdrop-filter: blur(10px);
+    border: 2px solid var(--color-t);
+    border-radius: 10px;
+}
+
+.transition{
+    transition: 0.5s;
+}
+
+/* header */
+.headerStyle{
+    background-color: var(--color-p);
+    height: 75vh;
+}
+
+/* bottom header */
+.sezioneFrase{
+    height: 25vh;
+}
+
+/* sezione categorie */
+.imgCategory{
+    border-radius: 50%;
+    border: 2px solid var(--color-p);
+    padding: 5px;
+}
+
+/* sezione numeri */
+.boxDati{
+    height: 150px;
+    background-color: var(--color-p);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: var(--color-s);
+    border-radius: 10px;
+}
